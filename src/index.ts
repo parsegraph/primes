@@ -1,3 +1,3 @@
-export default function todo() {
-  return "Hello from TODO-PACKAGE-NAME";
-}
+import PrimesWidget from "./PrimesWidget";
+
+export default PrimesWidget;
