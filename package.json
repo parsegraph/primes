@@ -58,6 +58,8 @@
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.0.10",
     "parsegraph-graphpainter": "^2.3.1",
-    "parsegraph-projector": "^1.10.0"
+    "parsegraph-projector": "^1.10.0",
+    "parsegraph-timing": "^1.4.16",
+    "parsegraph-timingbelt": "^1.7.11"
   }
 }
