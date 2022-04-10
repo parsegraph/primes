@@ -4889,6 +4889,26 @@ parsegraph-block@^4.2.0:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
+parsegraph-block@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/parsegraph-block/-/parsegraph-block-4.2.1.tgz#1c96ebe4c0a8b49cd3c7d419c2c5219583eb3b5c"
+  integrity sha512-Aq8CTEeFGTbuXu8HRTzkALZa6jSMYHte2o+UhX76Jlfkb5UqFvYBwl4ZKl0CdqhYFIDZee/O5hAVV2y1GPTqKQ==
+  dependencies:
+    parsegraph-artist "^3.3.1"
+    parsegraph-blockpainter "^1.6.6"
+    parsegraph-color "^1.4.7"
+    parsegraph-direction "^2.0.10"
+    parsegraph-font "^1.7.3"
+    parsegraph-interact "^1.6.5"
+    parsegraph-layout "^1.8.0"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-method "^1.4.22"
+    parsegraph-projector "^1.10.0"
+    parsegraph-rect "^1.4.7"
+    parsegraph-size "^1.7.0"
+    parsegraph-timing "^1.4.16"
+    parsegraph-timingbelt "^1.7.11"
+
 parsegraph-blockpainter@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/parsegraph-blockpainter/-/parsegraph-blockpainter-1.6.6.tgz#37555233b43d587f6b65fd9db19a059bbbcff192"
