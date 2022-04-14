@@ -12,7 +12,6 @@ export default class PrimesWidget {
     this.knownPrimes = [];
     this.position = 2;
 
-    console.log("Creating BlockCaret");
     this.caret = new BlockCaret("b", new DefaultBlockPalette(BlockType.SQUARE, true));
     this.caret.node().value().setLabel("1");
   }
@@ -26,7 +25,7 @@ export default class PrimesWidget {
   }
 
   step() {
-    console.log("Stepping primes widget");
+    //console.log("Stepping primes widget");
     // Check if any known prime is a multiple of the current position.
     this.caret.spawnMove("f", "b");
     this.caret.label("" + this.position);

@@ -9,23 +9,19 @@ document.addEventListener("DOMContentLoaded", () => {
   root.style.position = "relative";
 
   const primes = new PrimesWidget();
-  console.log("Primes");
 
   const belt = new TimingBelt();
 
   var totalStart = new Date();
-  var MAX_PRIME = 100;
-  console.log("Primes");
+  var MAX_PRIME = 200;
   belt.setGovernor(false);
   belt.setBurstIdle(true);
   belt.queueJob(()=>{
     console.log("Processing primes: " + primes.position + " of " + MAX_PRIME)
     if(!primes.isPaused() && primes.position <= MAX_PRIME) {
-        primes.step();
+      primes.step();
     }
-    primes.node().value().scheduleRepaint();
     comp.scheduleRepaint();
-    belt.scheduleUpdate();
     if(primes.position > MAX_PRIME) {
         console.log("Done in " + elapsed(totalStart) + "ms");
     }
