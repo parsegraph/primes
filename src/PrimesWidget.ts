@@ -1,18 +1,17 @@
 import PrimesModulo from "./PrimesModulo";
-import { DirectionCaret } from "parsegraph-direction";
-import Block from "parsegraph-block";
 import { BlockCaret } from "parsegraph-block";
 
 export default class PrimesWidget {
   position: number;
   knownPrimes: PrimesModulo[];
-  caret: DirectionCaret<Block>;
+  caret: BlockCaret;
   _paused: boolean;
 
   constructor() {
     this.knownPrimes = [];
     this.position = 2;
 
+    console.log("Creating BlockCaret");
     this.caret = new BlockCaret();
     this.caret.node().value().setLabel("1");
   }
@@ -21,8 +20,8 @@ export default class PrimesWidget {
     return this._paused;
   }
 
-  freezer() {
-    return this.caret.freezer();
+  freezer(): any {
+    return this.caret._freezer;
   }
 
   step() {
@@ -74,7 +73,7 @@ export default class PrimesWidget {
     ++this.position;
   }
 
-  node() {
+  node(): any {
     return this.caret.root();
   }
 }

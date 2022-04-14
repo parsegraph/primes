@@ -53,8 +53,8 @@
     "webgl-debug": "^2.0.1"
   },
   "dependencies": {
-    "parsegraph-artist": "^3.3.1",
-    "parsegraph-block": "^4.2.1",
+    "parsegraph-artist": "^3.4.0",
+    "parsegraph-block": "^4.3.0",
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.1.0",
     "parsegraph-graphpainter": "^2.3.1",
