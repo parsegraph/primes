@@ -57,7 +57,7 @@
     "parsegraph-block": "^4.3.0",
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.1.0",
-    "parsegraph-graphpainter": "^2.3.1",
+    "parsegraph-graphpainter": "^2.4.0",
     "parsegraph-projector": "^1.10.0",
     "parsegraph-timing": "^1.4.16",
     "parsegraph-timingbelt": "^1.7.11"
