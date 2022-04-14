@@ -1,5 +1,6 @@
 import PrimesModulo from "./PrimesModulo";
-import { BlockCaret } from "parsegraph-block";
+import { BlockCaret, DefaultBlockPalette } from "parsegraph-block";
+import {BlockType } from 'parsegraph-blockpainter';
 
 export default class PrimesWidget {
   position: number;
@@ -12,7 +13,7 @@ export default class PrimesWidget {
     this.position = 2;
 
     console.log("Creating BlockCaret");
-    this.caret = new BlockCaret();
+    this.caret = new BlockCaret("b", new DefaultBlockPalette(BlockType.SQUARE, true));
     this.caret.node().value().setLabel("1");
   }
 
@@ -25,14 +26,14 @@ export default class PrimesWidget {
   }
 
   step() {
-    // console.log("Stepping primes widget");
+    console.log("Stepping primes widget");
     // Check if any known prime is a multiple of the current position.
     this.caret.spawnMove("f", "b");
     this.caret.label("" + this.position);
     this.caret.id(this.position);
     this.caret.push();
     this.caret.pull("u");
-    this.caret.crease();
+    //this.caret.crease();
     const freeze = !!this.freezer();
     freeze && this.caret.freeze();
     let isPrime = true;
@@ -56,7 +57,7 @@ export default class PrimesWidget {
         .state()
         .setId(this.position + ":" + prime.frequency);
       if (i === 0) {
-        this.caret.crease();
+        //this.caret.crease();
         freeze && this.caret.freeze();
       }
     }
