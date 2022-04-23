@@ -2,7 +2,7 @@ import PrimesWidget from "./PrimesWidget";
 import { BasicProjector, Projection } from "parsegraph-projector";
 import { Viewport } from "parsegraph-graphpainter";
 import TimingBelt from "parsegraph-timingbelt";
-import {elapsed} from 'parsegraph-timing';
+import { elapsed } from "parsegraph-timing";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
@@ -12,18 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const belt = new TimingBelt();
 
-  var totalStart = new Date();
-  var MAX_PRIME = 200;
+  const totalStart = new Date();
+  const MAX_PRIME = 200;
   belt.setGovernor(false);
   belt.setBurstIdle(true);
-  belt.queueJob(()=>{
-    console.log("Processing primes: " + primes.position + " of " + MAX_PRIME)
-    if(!primes.isPaused() && primes.position <= MAX_PRIME) {
+  belt.queueJob(() => {
+    console.log("Processing primes: " + primes.position + " of " + MAX_PRIME);
+    if (!primes.isPaused() && primes.position <= MAX_PRIME) {
       primes.step();
     }
     comp.scheduleRepaint();
-    if(primes.position > MAX_PRIME) {
-        console.log("Done in " + elapsed(totalStart) + "ms");
+    if (primes.position > MAX_PRIME) {
+      console.log("Done in " + elapsed(totalStart) + "ms");
     }
     return primes.position <= MAX_PRIME;
   });
@@ -31,7 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
   primes.step();
 
   const comp = new Viewport(primes.node());
-  primes.node().value().setOnScheduleUpdate(() => comp.scheduleUpdate());
+  primes
+    .node()
+    .value()
+    .setOnScheduleUpdate(() => comp.scheduleUpdate());
   // const freezer = new Freezer();
   // root.value().getCache().freeze(freezer);
 
@@ -48,5 +51,4 @@ document.addEventListener("DOMContentLoaded", () => {
   projector.container().style.position = "absolute";
   const proj = new Projection(projector, comp);
   belt.addRenderable(proj);
-
 });
