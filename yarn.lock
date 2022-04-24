@@ -4916,6 +4916,20 @@ parsegraph-block@^4.3.0:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
+parsegraph-blockpainter@^1.6.10:
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/parsegraph-blockpainter/-/parsegraph-blockpainter-1.6.10.tgz#fcbe5419439bc5f96c7d35bf440278cace0e17e9"
+  integrity sha512-vtvDXvjauXM/eJWi7o8To2MXusI0elZ9Nnr2eW7wW8ys36MedLgkzDFmCIEkv0NDO87rFPjf+CKAgI3DIxzlzg==
+  dependencies:
+    glslify-loader "^2.0.0"
+    node-canvas-webgl "^0.2.6"
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.10"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-rect "^1.4.7"
+    ts-shader-loader "^1.0.6"
+    webgl-mock "^0.1.7"
+
 parsegraph-blockpainter@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/parsegraph-blockpainter/-/parsegraph-blockpainter-1.6.6.tgz#37555233b43d587f6b65fd9db19a059bbbcff192"
@@ -4942,6 +4956,16 @@ parsegraph-color@^1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.7.tgz#8aa69bd3c93fa8bcc36f6783893716bd752fba87"
   integrity sha512-ZlinbOlbnDDV9F/cHITmUSyZRCjegoTnsWey0CaZx6w0jEFlB9yQCMo6xBgFHcYBdd3DFf9rWisECc5nedsCXA==
+
+parsegraph-compileprogram@^2.2.10:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.11.tgz#684bc1ce2f5ddd150023104860eff4a770df3ca1"
+  integrity sha512-tCXK5G4+Da+m49fnSdZfPGFP8BI6ooPcjsxSfm/W8IYmR80oMWL2LL+Ct9FqxLyYtRT+6eU9La5s7GkEfiRpFQ==
+  dependencies:
+    parsegraph-color "^1.4.7"
+    parsegraph-method "^1.4.22"
+    parsegraph-rect "^1.4.7"
+    parsegraph-shader "^1.5.6"
 
 parsegraph-compileprogram@^2.2.8, parsegraph-compileprogram@^2.2.9:
   version "2.2.9"

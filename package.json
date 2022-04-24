@@ -55,6 +55,7 @@
   "dependencies": {
     "parsegraph-artist": "^3.4.0",
     "parsegraph-block": "4.3.1",
+    "parsegraph-blockpainter": "^1.6.10",
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.1.0",
     "parsegraph-graphpainter": "^2.4.0",
