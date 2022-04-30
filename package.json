@@ -53,14 +53,14 @@
   },
   "dependencies": {
     "parsegraph-artist": "^3.4.10",
-    "parsegraph-block": "^4.4.6",
+    "parsegraph-block": "^4.4.7",
     "parsegraph-blockpainter": "^1.6.15",
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.1.0",
     "parsegraph-graphpainter": "^2.4.7",
-    "parsegraph-projector": "^1.13.6",
+    "parsegraph-projector": "^1.13.7",
     "parsegraph-timing": "^1.4.16",
     "parsegraph-timingbelt": "^1.7.11",
-    "parsegraph-viewport": "^2.0.3"
+    "parsegraph-viewport": "^2.0.5"
   }
 }
