@@ -1,8 +1,9 @@
 import PrimesWidget from "./PrimesWidget";
 import { BasicProjector, Projection } from "parsegraph-projector";
-import Navport from "parsegraph-viewport";
+import Navport, { renderFullscreen } from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
+import Color from "parsegraph-color";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
@@ -21,7 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!primes.isPaused() && primes.position <= MAX_PRIME) {
       primes.step();
     }
-    comp.scheduleRepaint();
+    primes.node().value().scheduleRepaint();
+    belt.scheduleUpdate();
     if (primes.position > MAX_PRIME) {
       console.log("Done in " + elapsed(totalStart) + "ms");
     }
@@ -30,25 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   primes.step();
 
-  const comp = new Navport(primes.node());
-  primes
-    .node()
-    .value()
-    .setOnScheduleUpdate(() => comp.scheduleUpdate());
-  // const freezer = new Freezer();
-  // root.value().getCache().freeze(freezer);
-
-  window.addEventListener("resize", () => {
-    belt.scheduleUpdate();
-  });
-
   const topElem = document.getElementById("demo");
-
-  const projector = new BasicProjector();
-  projector.glProvider().container();
-  projector.overlay();
-  topElem.appendChild(projector.container());
-  projector.container().style.position = "absolute";
-  const proj = new Projection(projector, comp);
-  belt.addRenderable(proj);
+  renderFullscreen(topElem, primes.node(), new Color(0, 0, 0, 1));
 });
