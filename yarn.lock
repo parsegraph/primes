@@ -3855,7 +3855,7 @@ parsegraph-artist@^3.4.21, parsegraph-artist@^3.4.22:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
-parsegraph-block@^4.4.11, parsegraph-block@^4.4.12, parsegraph-block@^4.4.14, parsegraph-block@^4.4.15:
+parsegraph-block@^4.4.11, parsegraph-block@^4.4.15:
   version "4.4.15"
   resolved "https://registry.yarnpkg.com/parsegraph-block/-/parsegraph-block-4.4.15.tgz#1a1244fbd4c502d7ced36096e18b91956c6a65b0"
   integrity sha512-caw2TVGHc11yk2DdYcSN+Hsv6KAwFNHuLOLihWdxlciMiLvTIlPBgfkrYjRScSPWDN3ZyNODVoIaSWF7p4cwdA==
@@ -3893,13 +3893,13 @@ parsegraph-camera@^1.4.18:
     parsegraph-matrix "^1.4.12"
     parsegraph-rect "^1.5.1"
 
-parsegraph-carousel@^2.3.21:
-  version "2.3.22"
-  resolved "https://registry.yarnpkg.com/parsegraph-carousel/-/parsegraph-carousel-2.3.22.tgz#a16f43accbfdfb209c22f8cbc618b0f35262277a"
-  integrity sha512-mNWlVbciz+vOucNfzqb8EOWceaPtZHmP0EXEATH1qas4rojj6nPncXbVpKUheiwt1Fgx8sAiEN0DKSixmJA91w==
+parsegraph-carousel@^2.3.22:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/parsegraph-carousel/-/parsegraph-carousel-2.3.23.tgz#40dce707b7524c9cefdfd68178b39f52b88bc369"
+  integrity sha512-fru57zGfVQeMHaAbowQn19MWvGFFNlzw1CzymjwLKPjMjoltGLgBRmg5ZTcLB+cg1GlzzsJUB7qwnJEzQlFphQ==
   dependencies:
     parsegraph-artist "^3.4.22"
-    parsegraph-block "^4.4.14"
+    parsegraph-block "^4.4.15"
     parsegraph-camera "^1.4.18"
     parsegraph-color "^1.4.7"
     parsegraph-fanpainter "^1.6.12"
@@ -4142,17 +4142,17 @@ parsegraph-toradians@^1.4.9:
   resolved "https://registry.yarnpkg.com/parsegraph-toradians/-/parsegraph-toradians-1.4.9.tgz#4ac54c576c641f16cac432dd7db5ed807ebc3d1e"
   integrity sha512-oeFTXYNXQiYqvKQ8UOOwnGlT6bLzsSLsIMsWUiGmSEBPsn6//UO/pukq79G2S+CVsC5enswbfwnrEzaTpwpTzg==
 
-parsegraph-viewport@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/parsegraph-viewport/-/parsegraph-viewport-2.1.5.tgz#0395cb18e75d441a5082a1b2a1ef73293b4500ee"
-  integrity sha512-ar86mgx93cW3nGZD9nhBmBVGFw1GhCpTN0j1a3Y3c0TmxB8fEk3PBPSm5EtH/AnoGVL5BHxQ9ShlnZyl3fGyLA==
+parsegraph-viewport@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/parsegraph-viewport/-/parsegraph-viewport-2.1.6.tgz#0306b00a8d8de497d640acb0d40a7e5710e98411"
+  integrity sha512-7jZu6UE2q427gsBVHpDOdztLKQCsmXke1nTbXrRWIICJOnp/JrD9ECkZc1gREaQahsONuOZpNuEl3HKcg/uQww==
   dependencies:
     parsegraph-animatedspotlight "^2.0.36"
     parsegraph-animator "^1.5.8"
     parsegraph-artist "^3.4.22"
-    parsegraph-block "^4.4.12"
+    parsegraph-block "^4.4.15"
     parsegraph-camera "^1.4.18"
-    parsegraph-carousel "^2.3.21"
+    parsegraph-carousel "^2.3.22"
     parsegraph-color "^1.4.7"
     parsegraph-compileprogram "^2.2.15"
     parsegraph-direction "^2.1.0"
