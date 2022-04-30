@@ -1,6 +1,5 @@
 import PrimesWidget from "./PrimesWidget";
-import { BasicProjector, Projection } from "parsegraph-projector";
-import Navport, { renderFullscreen } from "parsegraph-viewport";
+import { renderFullscreen } from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
 import Color from "parsegraph-color";
