@@ -3985,7 +3985,31 @@ parse5@6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parsegraph-artist@^3.4.10, parsegraph-artist@^3.4.11:
+parsegraph-animatedspotlight@^2.0.19:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/parsegraph-animatedspotlight/-/parsegraph-animatedspotlight-2.0.28.tgz#4e97b75defe1e3789555c2cde6f76a67da559478"
+  integrity sha512-ZTiq//XyOnd44WZN2XOrgikgPbRyDUOLQMQnVlVnu2IeshyKbn9InxlWL2+4miegWUukOZjShBmKWSWhgMqI+w==
+  dependencies:
+    parsegraph-animator "^1.5.8"
+    parsegraph-color "^1.4.7"
+    parsegraph-direction "^2.1.0"
+    parsegraph-layout "^1.13.2"
+    parsegraph-lerp "^1.5.9"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-method "^1.4.22"
+    parsegraph-projector "^1.13.2"
+    parsegraph-smoothstep "^1.4.5"
+    parsegraph-spotlightpainter "^2.3.8"
+    parsegraph-timing "^1.4.16"
+    parsegraph-timingbelt "^1.7.11"
+    parsegraph-window "^1.8.11"
+
+parsegraph-animator@^1.5.8:
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/parsegraph-animator/-/parsegraph-animator-1.5.8.tgz#2b5f988fe067f299d84c376116e2c60a205c3d52"
+  integrity sha512-SIG7PCo63QgQ21hq1LVBjX9u6FGUMeu4BimFuXt25Elxf9WiWtzRRmYiPXoTceSGTHvtokvMM7pb26dpX5Hn/A==
+
+parsegraph-artist@^3.4.10, parsegraph-artist@^3.4.11, parsegraph-artist@^3.4.2, parsegraph-artist@^3.4.5:
   version "3.4.11"
   resolved "https://registry.yarnpkg.com/parsegraph-artist/-/parsegraph-artist-3.4.11.tgz#7ea0251acebcd90c8efbd4916913c303242b7b9d"
   integrity sha512-LwuEbqpYt8wodTK3/UxDMmoSrKdJyairVlpjBj+LmavK5WHYYgvxPEGNTMDZFo3udBBfKOMDpiMg5ieytLx6VA==
@@ -4005,7 +4029,7 @@ parsegraph-artist@^3.4.10, parsegraph-artist@^3.4.11:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
-parsegraph-block@^4.4.3, parsegraph-block@^4.4.4:
+parsegraph-block@^4.3.2, parsegraph-block@^4.3.3, parsegraph-block@^4.4.3, parsegraph-block@^4.4.4:
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/parsegraph-block/-/parsegraph-block-4.4.4.tgz#051ad70140f57cdbe668bdb3548870038db9e308"
   integrity sha512-pRWsJjN+ZHlHBedvbvULkVyTLgW2daf9t9tcng2I2oD++RzS64XQ9cOZ9N80jXwEKWrd2O4As9vaKdDGvqf2tw==
@@ -4025,7 +4049,7 @@ parsegraph-block@^4.4.3, parsegraph-block@^4.4.4:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
-parsegraph-blockpainter@^1.6.14:
+parsegraph-blockpainter@^1.6.14, parsegraph-blockpainter@^1.6.6:
   version "1.6.14"
   resolved "https://registry.yarnpkg.com/parsegraph-blockpainter/-/parsegraph-blockpainter-1.6.14.tgz#fb37eee720228198981b35b00501e1d46e7cdcd6"
   integrity sha512-r2FZj1YX4iaZPZ7NJqEmVlF/1049GAdQhTE+3D1G33HlPXKkkg6nYWrlaF9/ihz42sYQNW+vJ+gdS0wYS9252A==
@@ -4038,7 +4062,7 @@ parsegraph-blockpainter@^1.6.14:
     ts-shader-loader "^1.0.6"
     webgl-mock "^0.1.7"
 
-parsegraph-camera@^1.4.14, parsegraph-camera@^1.4.17:
+parsegraph-camera@^1.4.11, parsegraph-camera@^1.4.14, parsegraph-camera@^1.4.17:
   version "1.4.17"
   resolved "https://registry.yarnpkg.com/parsegraph-camera/-/parsegraph-camera-1.4.17.tgz#d643e6952265560a1a213a6a58943e80c8063609"
   integrity sha512-VfUS9Qlcr9XioaM7TNc4DrNnJoZIs5jKceYN0X4lrFwqYoVR2uXUP4H4UUkE2zHtrxdududPTlWcMstspabhUA==
@@ -4046,12 +4070,32 @@ parsegraph-camera@^1.4.14, parsegraph-camera@^1.4.17:
     parsegraph-matrix "^1.4.11"
     parsegraph-rect "^1.4.7"
 
+parsegraph-carousel@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-carousel/-/parsegraph-carousel-2.3.3.tgz#612a23406a0b6334479fc7d720dad84ddf3c6d2a"
+  integrity sha512-8eyGhsiAcobXMuSy/aT3AftD0sWcZRPcSaQiQQjuej5ajMjZsh7D2/OhPkT4ikxBjfZSjyqWnbiOg7XM+6pJgA==
+  dependencies:
+    parsegraph-artist "^3.4.5"
+    parsegraph-block "^4.3.3"
+    parsegraph-camera "^1.4.14"
+    parsegraph-color "^1.4.7"
+    parsegraph-fanpainter "^1.6.8"
+    parsegraph-graphpainter "^2.4.0"
+    parsegraph-input "^1.6.5"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-method "^1.4.22"
+    parsegraph-projector "^1.13.2"
+    parsegraph-scene "^2.2.3"
+    parsegraph-timing "^1.4.16"
+    parsegraph-timingbelt "^1.7.11"
+    parsegraph-toradians "^1.4.9"
+
 parsegraph-color@^1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.7.tgz#8aa69bd3c93fa8bcc36f6783893716bd752fba87"
   integrity sha512-ZlinbOlbnDDV9F/cHITmUSyZRCjegoTnsWey0CaZx6w0jEFlB9yQCMo6xBgFHcYBdd3DFf9rWisECc5nedsCXA==
 
-parsegraph-compileprogram@^2.2.11, parsegraph-compileprogram@^2.2.14:
+parsegraph-compileprogram@^2.2.11, parsegraph-compileprogram@^2.2.14, parsegraph-compileprogram@^2.2.9:
   version "2.2.14"
   resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.14.tgz#9ed12ead25f0d783bdb444a879dd837f08ffdbb4"
   integrity sha512-eXAktMx7yo0rPArz2yLjJ5O1xf+OgROyBQ+Cop0Mys90zjIodJBeKgQ/FFj3mR5Md2KnMMHaKhv71/lNY1zpag==
@@ -4077,6 +4121,17 @@ parsegraph-extent@^1.4.11:
     parsegraph-fuzzyequals "^1.4.9"
     parsegraph-gettimeinmillis "^1.4.6"
 
+parsegraph-fanpainter@^1.6.8:
+  version "1.6.11"
+  resolved "https://registry.yarnpkg.com/parsegraph-fanpainter/-/parsegraph-fanpainter-1.6.11.tgz#bd206cb48e68a5943068a024103f4ad4f57a553b"
+  integrity sha512-cSyykjzNsTHTCu6cs1smNtVzF3OGuWPkNiO7BRTCs/dvzwI8SB4AkfzDcQBZz4XPvn2IuBQwfWPJ3gxVyVy2XA==
+  dependencies:
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.14"
+    parsegraph-matrix "^1.4.12"
+    parsegraph-pagingbuffer "^2.1.3"
+    parsegraph-toradians "^1.4.9"
+
 parsegraph-font@^1.7.4:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/parsegraph-font/-/parsegraph-font-1.7.4.tgz#c6650c723921a6a52aab9b68c27bb86e59489644"
@@ -4097,7 +4152,7 @@ parsegraph-gettimeinmillis@^1.4.6:
   resolved "https://registry.yarnpkg.com/parsegraph-gettimeinmillis/-/parsegraph-gettimeinmillis-1.4.6.tgz#edb341bf5b2faaaf918e8c0ba31f63d643afe942"
   integrity sha512-ARG/HOV6rb8R8U6tLgJ5l8IYL21DoKIki7Ktrm4+kckKyLBLBLGFY0HH5fzzcIue9bhbjI5Kj0pUCGazSIUj5w==
 
-parsegraph-graphpainter@^2.4.7:
+parsegraph-graphpainter@^2.4.0, parsegraph-graphpainter@^2.4.7:
   version "2.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-graphpainter/-/parsegraph-graphpainter-2.4.7.tgz#4741a69e3793e6516f47d357e557c920bfb4b0d9"
   integrity sha512-gVSDPiYl96GNa4jHBhm/rBW6ScbAZnkBxRDBr8egQ8C7nvifxC+/8esU3YJXXPlBL3lfm3KAgU9+QA0qszHkoQ==
@@ -4117,6 +4172,14 @@ parsegraph-graphpainter@^2.4.7:
     parsegraph-showincamera "^1.7.3"
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
+
+parsegraph-input@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/parsegraph-input/-/parsegraph-input-2.0.2.tgz#509173c3f0cb84301535c95e68aaf2153c944470"
+  integrity sha512-e/jLs/xU9YVS4pO3c32w3R4N9E6v9+ili+uHgrQz9tJHo6c+ZgxrYcq+C1Iy0sA73vTLlb3q9whXsgVuTtrOQQ==
+  dependencies:
+    parsegraph-matrix "^1.4.11"
+    parsegraph-normalizewheel "^1.4.7"
 
 parsegraph-input@^1.6.5:
   version "1.6.5"
@@ -4142,7 +4205,7 @@ parsegraph-interact@^1.6.7:
     parsegraph-input "^1.6.5"
     parsegraph-method "^1.4.22"
 
-parsegraph-layout@^1.13.3, parsegraph-layout@^1.13.5:
+parsegraph-layout@^1.13.2, parsegraph-layout@^1.13.3, parsegraph-layout@^1.13.5:
   version "1.13.5"
   resolved "https://registry.yarnpkg.com/parsegraph-layout/-/parsegraph-layout-1.13.5.tgz#151e73f84cec16d9f64d1428f14567cc54495082"
   integrity sha512-0NtkU4mMqrLx3fCZWjy1QNmhQSMDAwLEe1q5L3cQTAu0DlufXK67yL4h+YzejQp8LQoquPB75myYNuL2EMJyLA==
@@ -4153,7 +4216,12 @@ parsegraph-layout@^1.13.3, parsegraph-layout@^1.13.5:
     parsegraph-size "^1.7.0"
     parsegraph-timing "^1.4.16"
 
-parsegraph-matrix@^1.4.11, parsegraph-matrix@^1.4.12:
+parsegraph-lerp@^1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/parsegraph-lerp/-/parsegraph-lerp-1.5.9.tgz#d8c8f031260c3980f3a9bca03a135d70ea580aa5"
+  integrity sha512-ryulARHH6cDxJwvrlWqA8XxtGg0bYK6rdCyu1zcRlK6jRi+w9WebmZiYuUPJ9TGHnfKOJOie2cgPX/Eq4orApA==
+
+parsegraph-matrix@^1.4.10, parsegraph-matrix@^1.4.11, parsegraph-matrix@^1.4.12:
   version "1.4.12"
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.12.tgz#cde2e2cef52ad5a4f5df3226abcfe3e41d577e98"
   integrity sha512-JVrP6VHvNzunVeFkkKLAUrv/WKZh5CJtVf4fUjS87v+WQ3hNJ8T2hqIVRmWwq5WRx8C0urcwY/wAzSOk75qYAQ==
@@ -4163,12 +4231,17 @@ parsegraph-method@^1.4.10, parsegraph-method@^1.4.22:
   resolved "https://registry.yarnpkg.com/parsegraph-method/-/parsegraph-method-1.4.22.tgz#e73605b8f69a6040df3f1e689bde1f26c5b163d2"
   integrity sha512-7l1YOim5QH+Gc/HQYqBGvRPtyf1EwvjHODcYZIyxrQQVbnjkkG1vrhqIpdm3TlfRl2k9YU0BbfDNY9BmyL/UdA==
 
-parsegraph-normalizewheel@^1.4.7:
+parsegraph-normalizewheel@^1.4.4, parsegraph-normalizewheel@^1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-normalizewheel/-/parsegraph-normalizewheel-1.4.7.tgz#a7643a28597a0b275e3d4bfe15c7eb60372b915f"
   integrity sha512-F0nTb+hZVBAZ4d8W+GZ281DDl4Br1U62fHj2oW5xxKfr1E9u/b9K4243FSYNG0XfzZzhjYoSIjUwM4ew3KMPZw==
 
-parsegraph-projector@^1.13.5:
+parsegraph-pagingbuffer@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-2.1.3.tgz#6a3a3802ae22a58b143020b7684ce3b193f9c5e2"
+  integrity sha512-Ag0DFMqf57CuQ7y03Z5Ps9NugLx3pau/EeqiCLE9vt2kQ2dQagQ4wbKpm9YyRmgMlXtAu1K6vg2pPriSv1ycoQ==
+
+parsegraph-projector@^1.13.2, parsegraph-projector@^1.13.5:
   version "1.13.5"
   resolved "https://registry.yarnpkg.com/parsegraph-projector/-/parsegraph-projector-1.13.5.tgz#e9a07ffa768e1dd2f1b4bfb51e9a8cd75732db44"
   integrity sha512-un8l6rfUN9L2tXttPjydHs5g1Fu5f/y2J/ZKs18UbQKAEnFi84TTgMkLqlpPp5UAdEH/zb6TIPGg8bnomMTZ2Q==
@@ -4185,7 +4258,7 @@ parsegraph-rect@^1.4.7, parsegraph-rect@^1.5.1:
   resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.5.1.tgz#ee95591098bacc34284f04969a73f5b851ddfdb4"
   integrity sha512-ScHgiKnEpvOKVbc0aIn0mMJSZoqCGkak1Nlud9oezvHLDsVsMcHUO6KzPiN1DNfLaqQGn+mNBvSf0B04OeFIYw==
 
-parsegraph-scene@^2.2.9:
+parsegraph-scene@^2.2.1, parsegraph-scene@^2.2.3, parsegraph-scene@^2.2.9:
   version "2.2.10"
   resolved "https://registry.yarnpkg.com/parsegraph-scene/-/parsegraph-scene-2.2.10.tgz#a59f1098cbacdd0bde557e6f77ee4d16321225e5"
   integrity sha512-GdNW2Ca3HostKJm3cPTnJcZG8/RNQNq7XsUuBJQNLM3whmIz8fYzyASXp+rD82oFgo3p/Kr/mYEoT5G7xP/THg==
@@ -4203,7 +4276,7 @@ parsegraph-shader@^1.5.6:
   resolved "https://registry.yarnpkg.com/parsegraph-shader/-/parsegraph-shader-1.5.6.tgz#1b8bbf47e7e41aca7a4b442ed635335b6f500b46"
   integrity sha512-nzD9Z3LLXTU9NyGgJ2fx7EVkQqO1p1E5TaYeg++SiNy3grTGN7aY8JdF6qEedm3i6aG6nXt7kxxRoeoHzJUddQ==
 
-parsegraph-showincamera@^1.7.3:
+parsegraph-showincamera@^1.7.1, parsegraph-showincamera@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/parsegraph-showincamera/-/parsegraph-showincamera-1.7.3.tgz#35a3f534dbda98b8306b2d983a0624417f418d72"
   integrity sha512-6THUKrwWmzfCW0naJnPh9wmI2CENwvgGfULVnEsXK5FemAioIZ6oiif5W9TjMLQ7lW0SOhdlPYhzN+nthcebsg==
@@ -4217,6 +4290,31 @@ parsegraph-size@^1.7.0, parsegraph-size@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/parsegraph-size/-/parsegraph-size-1.7.1.tgz#8c107adc1043646b3c05299e65ab1da635adfd93"
   integrity sha512-0XFXxuMPrkHC4fsU2waqeFcMWVJKRrwEmN72WmTs8jrP5nq9W4T35DhPIn4zoqLm3HvA0YoXn2kbSod7oiwtYQ==
+
+parsegraph-smoothstep@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/parsegraph-smoothstep/-/parsegraph-smoothstep-1.4.5.tgz#55d331a9fbca83b5e6724c51cd644bd9e043b0b0"
+  integrity sha512-joj6AMeVrpHbhEBzmLquLaGlSHiLC4PCp7Y/Uhdmfit9s01tR3fXaFfAtoN7fQaNlxKhkEJH3NC+OFIUt16WFQ==
+
+parsegraph-spotlightpainter@^2.3.8:
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/parsegraph-spotlightpainter/-/parsegraph-spotlightpainter-2.3.10.tgz#11e32c5264120071d5808f74cd3a03e691ff81ea"
+  integrity sha512-To3QmyewmI8A1Bd92F0DgcCB1ef9CuWiJ/tgSclbFWJyRsRQF+WK8KGW2CURLg/XXw/PBgY4x3XwgiRV3UBY2g==
+  dependencies:
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.11"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-pagingbuffer "^2.1.3"
+
+parsegraph-texturepainter@^1.6.8:
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/parsegraph-texturepainter/-/parsegraph-texturepainter-1.6.10.tgz#9eb0a36ed4462e008a9a63f0e1c835271309daf6"
+  integrity sha512-PVLuSklJPwIZS3MgWyrnsbLCcyFzoUko5glbku8qOmpp3a41vrfRhAlVF2bZctJrBUyUhwKBrLVRn389is2Xlw==
+  dependencies:
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.11"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-pagingbuffer "^2.1.3"
 
 parsegraph-timing@^1.4.16:
   version "1.4.16"
@@ -4233,6 +4331,57 @@ parsegraph-timingbelt@^1.7.11:
   dependencies:
     parsegraph-method "^1.4.22"
     parsegraph-timing "^1.4.16"
+
+parsegraph-toradians@^1.4.9:
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/parsegraph-toradians/-/parsegraph-toradians-1.4.9.tgz#4ac54c576c641f16cac432dd7db5ed807ebc3d1e"
+  integrity sha512-oeFTXYNXQiYqvKQ8UOOwnGlT6bLzsSLsIMsWUiGmSEBPsn6//UO/pukq79G2S+CVsC5enswbfwnrEzaTpwpTzg==
+
+parsegraph-viewport@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-viewport/-/parsegraph-viewport-2.0.3.tgz#2639afbe3d3975aa0bd2f11fa1f57480e356adc0"
+  integrity sha512-YyjaLq3wj1/N1FpvNeeX1XgaKw54toNai5pOzAhTEV+wjArT7fN3yTb8FBULD3lTaVrI+NKm4woIJnVSWkZwfg==
+  dependencies:
+    parsegraph-animatedspotlight "^2.0.19"
+    parsegraph-animator "^1.5.8"
+    parsegraph-artist "^3.4.2"
+    parsegraph-block "^4.3.2"
+    parsegraph-blockpainter "^1.6.6"
+    parsegraph-camera "^1.4.11"
+    parsegraph-carousel "2.3.3"
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.9"
+    parsegraph-direction "^2.1.0"
+    parsegraph-fuzzyequals "^1.4.9"
+    parsegraph-graphpainter "^2.4.0"
+    parsegraph-input "2.0.2"
+    parsegraph-lerp "^1.5.9"
+    parsegraph-matrix "^1.4.11"
+    parsegraph-method "^1.4.22"
+    parsegraph-normalizewheel "^1.4.7"
+    parsegraph-projector "^1.13.2"
+    parsegraph-scene "^2.2.1"
+    parsegraph-showincamera "^1.7.1"
+    parsegraph-smoothstep "^1.4.5"
+    parsegraph-texturepainter "^1.6.8"
+    parsegraph-timing "^1.4.16"
+    parsegraph-timingbelt "^1.7.11"
+
+parsegraph-window@^1.8.11:
+  version "1.8.22"
+  resolved "https://registry.yarnpkg.com/parsegraph-window/-/parsegraph-window-1.8.22.tgz#dcdfd78205d8517482c6b668a1a7adfa788137ec"
+  integrity sha512-Gl8sU5uZUWE9Vzt95pgDDGEwXLQTn9EMb6ZLtoN3SlP0ma6fqGQ2iFGMaH64bCnOQpfn5m61MG0eDd4tCj0jVQ==
+  dependencies:
+    parsegraph-color "^1.4.7"
+    parsegraph-compileprogram "^2.2.14"
+    parsegraph-input "^2.0.3"
+    parsegraph-matrix "^1.4.10"
+    parsegraph-method "^1.4.22"
+    parsegraph-normalizewheel "^1.4.4"
+    parsegraph-projector "^1.13.5"
+    parsegraph-rect "^1.5.1"
+    parsegraph-timing "^1.4.16"
+    parsegraph-timingbelt "^1.7.11"
 
 path-exists@^3.0.0:
   version "3.0.0"

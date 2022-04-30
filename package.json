@@ -61,6 +61,7 @@
     "parsegraph-graphpainter": "^2.4.7",
     "parsegraph-projector": "^1.13.5",
     "parsegraph-timing": "^1.4.16",
-    "parsegraph-timingbelt": "^1.7.11"
+    "parsegraph-timingbelt": "^1.7.11",
+    "parsegraph-viewport": "^2.0.3"
   }
 }
