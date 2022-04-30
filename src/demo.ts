@@ -1,6 +1,6 @@
 import PrimesWidget from "./PrimesWidget";
 import { BasicProjector, Projection } from "parsegraph-projector";
-import { Viewport } from "parsegraph-graphpainter";
+import Navport from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
 
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   primes.step();
 
-  const comp = new Viewport(primes.node());
+  const comp = new Navport(primes.node());
   primes
     .node()
     .value()
