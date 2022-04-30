@@ -52,11 +52,11 @@
     "parsegraph-log": "^1.7.3"
   },
   "dependencies": {
-    "parsegraph-block": "^4.4.12",
+    "parsegraph-block": "^4.4.15",
     "parsegraph-blockpainter": "^1.7.1",
     "parsegraph-color": "^1.4.7",
     "parsegraph-timing": "^1.4.16",
     "parsegraph-timingbelt": "^1.7.11",
-    "parsegraph-viewport": "^2.1.4"
+    "parsegraph-viewport": "^2.1.5"
   }
 }
