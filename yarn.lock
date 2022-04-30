@@ -4005,7 +4005,7 @@ parsegraph-artist@^3.4.10, parsegraph-artist@^3.4.11:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
-parsegraph-block@^4.4.3:
+parsegraph-block@^4.4.3, parsegraph-block@^4.4.4:
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/parsegraph-block/-/parsegraph-block-4.4.4.tgz#051ad70140f57cdbe668bdb3548870038db9e308"
   integrity sha512-pRWsJjN+ZHlHBedvbvULkVyTLgW2daf9t9tcng2I2oD++RzS64XQ9cOZ9N80jXwEKWrd2O4As9vaKdDGvqf2tw==
@@ -4025,7 +4025,7 @@ parsegraph-block@^4.4.3:
     parsegraph-timing "^1.4.16"
     parsegraph-timingbelt "^1.7.11"
 
-parsegraph-blockpainter@^1.6.13, parsegraph-blockpainter@^1.6.14:
+parsegraph-blockpainter@^1.6.14:
   version "1.6.14"
   resolved "https://registry.yarnpkg.com/parsegraph-blockpainter/-/parsegraph-blockpainter-1.6.14.tgz#fb37eee720228198981b35b00501e1d46e7cdcd6"
   integrity sha512-r2FZj1YX4iaZPZ7NJqEmVlF/1049GAdQhTE+3D1G33HlPXKkkg6nYWrlaF9/ihz42sYQNW+vJ+gdS0wYS9252A==
@@ -4115,7 +4115,7 @@ parsegraph-gettimeinmillis@^1.4.6:
   resolved "https://registry.yarnpkg.com/parsegraph-gettimeinmillis/-/parsegraph-gettimeinmillis-1.4.6.tgz#edb341bf5b2faaaf918e8c0ba31f63d643afe942"
   integrity sha512-ARG/HOV6rb8R8U6tLgJ5l8IYL21DoKIki7Ktrm4+kckKyLBLBLGFY0HH5fzzcIue9bhbjI5Kj0pUCGazSIUj5w==
 
-parsegraph-graphpainter@^2.4.5:
+parsegraph-graphpainter@^2.4.7:
   version "2.4.7"
   resolved "https://registry.yarnpkg.com/parsegraph-graphpainter/-/parsegraph-graphpainter-2.4.7.tgz#4741a69e3793e6516f47d357e557c920bfb4b0d9"
   integrity sha512-gVSDPiYl96GNa4jHBhm/rBW6ScbAZnkBxRDBr8egQ8C7nvifxC+/8esU3YJXXPlBL3lfm3KAgU9+QA0qszHkoQ==
