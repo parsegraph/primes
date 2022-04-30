@@ -53,13 +53,13 @@
     "webgl-debug": "^2.0.1"
   },
   "dependencies": {
-    "parsegraph-artist": "^3.4.0",
-    "parsegraph-block": "^4.3.3",
-    "parsegraph-blockpainter": "^1.6.10",
+    "parsegraph-artist": "^3.4.10",
+    "parsegraph-block": "^4.4.3",
+    "parsegraph-blockpainter": "^1.6.13",
     "parsegraph-color": "^1.4.7",
     "parsegraph-direction": "^2.1.0",
-    "parsegraph-graphpainter": "^2.4.3",
-    "parsegraph-projector": "^1.13.2",
+    "parsegraph-graphpainter": "^2.4.5",
+    "parsegraph-projector": "^1.13.5",
     "parsegraph-timing": "^1.4.16",
     "parsegraph-timingbelt": "^1.7.11"
   }
