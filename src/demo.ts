@@ -1,12 +1,10 @@
 import PrimesWidget from "./PrimesWidget";
-import { renderFullscreen } from "parsegraph-viewport";
+import Navport, { render } from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
-import Color from "parsegraph-color";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const root = document.getElementById("demo");
-  root.style.position = "relative";
+  const viewport = new Navport(null);
 
   const primes = new PrimesWidget();
 
@@ -32,5 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
   primes.step();
 
   const topElem = document.getElementById("demo");
-  renderFullscreen(topElem, primes.node(), new Color(0, 0, 0, 1));
+  topElem.style.position = "relative";
+
+  const root = primes.node();
+  viewport.setRoot(root);
+  viewport.showInCamera(root);
+  render(topElem, viewport);
 });

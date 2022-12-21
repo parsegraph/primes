@@ -1,6 +1,12 @@
 import PrimesModulo from "./PrimesModulo";
-import { BlockCaret, DefaultBlockPalette } from "parsegraph-block";
+import { style , BlockCaret, DefaultBlockPalette } from "parsegraph-block";
 import { BlockType } from "parsegraph-blockpainter";
+import Color from "parsegraph-color";
+
+const SLOT_STYLE = {
+  ...style('s', true),
+  backgroundColor: new Color(.73, .726, .719, .2)
+};
 
 export default class PrimesWidget {
   position: number;
@@ -53,6 +59,7 @@ export default class PrimesWidget {
         isPrime = false;
       } else {
         this.caret.spawnMove("u", "s");
+        this.caret.node().value().setBlockStyle(SLOT_STYLE);
       }
       this.caret
         .node()
