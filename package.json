@@ -37,6 +37,8 @@
     "jest-environment-jsdom": "^29.3.1",
     "jsdom": "^20.0.3",
     "jsdom-global": "^3.0.2",
+    "parsegraph-checkglerror": "^1.5.5",
+    "parsegraph-log": "^1.7.5",
     "prettier": "^2.8.1",
     "raw-loader": "^4.0.2",
     "source-map-loader": "^4.0.1",
@@ -49,10 +51,10 @@
     "webpack-cli": "^5.0.1"
   },
   "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.3",
-    "parsegraph-log": "^1.7.3"
+    "parsegraph-checkglerror": "^1.5.5",
+    "parsegraph-log": "^1.7.5"
   },
   "dependencies": {
-    "parsegraph-viewport": "^2.7.27"
+    "parsegraph-viewport": "^2.9.0"
   }
 }
