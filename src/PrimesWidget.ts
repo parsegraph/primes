@@ -36,7 +36,7 @@ export default class PrimesWidget {
     this.caret.id(this.position);
     this.caret.push();
     this.caret.pull("u");
-    // this.caret.crease();
+    this.caret.crease();
     const freeze = !!this.freezer();
     freeze && this.caret.freeze();
     let isPrime = true;
@@ -60,7 +60,7 @@ export default class PrimesWidget {
         .state()
         .setId(this.position + ":" + prime.frequency);
       if (i === 0) {
-        // this.caret.crease();
+        this.caret.crease();
         freeze && this.caret.freeze();
       }
     }
