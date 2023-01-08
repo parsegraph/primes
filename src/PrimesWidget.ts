@@ -1,5 +1,5 @@
 import PrimesModulo from "./PrimesModulo";
-import { style , BlockCaret, DefaultBlockPalette } from "parsegraph-block";
+import { style, BlockCaret, DefaultBlockPalette } from "parsegraph-block";
 import { BlockType } from "parsegraph-blockpainter";
 import Color from "parsegraph-color";
 
