@@ -2,6 +2,7 @@ import PrimesWidget from "./PrimesWidget";
 import Navport, { render } from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
+import {BasicProjector} from 'parsegraph-projector';
 
 document.addEventListener("DOMContentLoaded", () => {
   const viewport = new Navport(null);
@@ -11,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const belt = new TimingBelt();
 
   const totalStart = new Date();
-  const MAX_PRIME = 200;
+  const MAX_PRIME = 1000;
   belt.setGovernor(false);
   belt.setBurstIdle(true);
   belt.queueJob(() => {
@@ -35,5 +36,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const root = primes.node();
   viewport.setRoot(root);
   viewport.showInCamera(root);
-  render(topElem, viewport);
+  render(topElem, viewport, new BasicProjector(), belt);
 });
