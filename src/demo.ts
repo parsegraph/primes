@@ -2,7 +2,7 @@ import PrimesWidget from "./PrimesWidget";
 import Navport, { render } from "parsegraph-viewport";
 import TimingBelt from "parsegraph-timingbelt";
 import { elapsed } from "parsegraph-timing";
-import {BasicProjector} from 'parsegraph-projector';
+import { BasicProjector } from "parsegraph-projector";
 
 document.addEventListener("DOMContentLoaded", () => {
   const viewport = new Navport(null);
