@@ -56,8 +56,8 @@
   },
   "dependencies": {
     "parsegraph-block": "^4.6.17",
-    "parsegraph-blockpainter": "^1.7.6",
-    "parsegraph-color": "^1.4.11",
+    "parsegraph-blockpainter": "^1.7.8",
+    "parsegraph-color": "^1.4.12",
     "parsegraph-projector": "^1.14.6",
     "parsegraph-timing": "^1.4.17",
     "parsegraph-timingbelt": "^1.8.1",
