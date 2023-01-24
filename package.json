@@ -56,11 +56,11 @@
   },
   "dependencies": {
     "parsegraph-block": "^4.6.22",
-    "parsegraph-blockpainter": "^1.7.9",
+    "parsegraph-blockpainter": "^1.7.10",
     "parsegraph-color": "^1.4.12",
     "parsegraph-projector": "^1.14.9",
     "parsegraph-timing": "^1.4.19",
     "parsegraph-timingbelt": "^1.8.3",
-    "parsegraph-viewport": "^2.9.8"
+    "parsegraph-viewport": "^2.9.13"
   }
 }
